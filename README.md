@@ -119,4 +119,4 @@ Dimensions were taken from Espressif's documentation (not included here):
 
 ## License
 
-[MIT](LICENSE). This covers the scripts and the generated case models.
+[Apache License 2.0](LICENSE). This covers the scripts and the generated case models.
