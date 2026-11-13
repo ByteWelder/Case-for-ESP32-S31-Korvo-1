@@ -67,25 +67,7 @@ Note: M3x20 will technically fit instead of M3x25, but printing the hex-shaped w
 5. Fit the bezel and fasten it with the four M3×20 screws; push a nut into each
    trap in the back.
 
-## Measure before printing
-
-These are set at the top of `case.py`:
-
-| Parameter | Default | What to measure |
-|---|---|---|
-| `STACK_GAP` | 11.0 | top of main PCB to underside of LCD subboard |
-| `BTN_H` | 2.5 | top of a tact switch above the main PCB |
-| `BACK_CLR` | 3.0 | must exceed the longest pin end under the main PCB |
-| `FRONT_NUT_H` | 4.6 | nut + stud height above the LCD subboard corners |
-
-Also unverified:
-
-- The standoffs are assumed to accept an M3 screw from below.
-- Button, microphone and LED positions were read from the dimension drawing
-  image (about ±0.5 mm).
-- The LCD subboard outline comes from the ESP32-S3-LCD-EV-Board-SUB3 V1.3
-  layout; the board shipped with the Korvo kit may be a different revision.
-- Camera module height.
+You might need to file or cut a bit of a chamfer near the USB A connector to get it closing perfectly (0.5 to 1 mm).
 
 ## Known compromises
 
